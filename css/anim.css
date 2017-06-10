@@ -1,0 +1,488 @@
+@keyframes fill {
+	0% {
+		fill: transparent;
+	}
+	50% {
+		fill: black;
+		opacity:.3;
+		stroke:#fff;
+		stroke-width:1;
+	}
+	65% {
+		fill: transparent;
+		opacity:0;
+		stroke:#fff;
+		stroke-width:1;
+	}
+	75% {
+		fill: black;
+		opacity:.5
+		stroke:#fff;
+		stroke-width:1;
+	}
+	85% {
+		fill: transparent;
+		opacity:0;
+		stroke:#fff;
+		stroke-width:1;
+	}
+	100% {
+		fill: black;
+		
+	}
+}
+
+#fill {
+	fill: black;
+	animation-name: fill;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	stroke:#fff;
+	stroke-width:1;
+}
+
+
+
+.svg-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background:#BDE898;
+}
+
+.content-svg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	max-width: 100%;
+	height:500px; 
+	background-color: red;
+  background-image:
+    radial-gradient(
+      circle at top center,
+      yellow,
+      #ff9326 50%
+    );
+}
+
+#subrata{
+	width:100%;
+	height:700px;
+}
+
+@keyframes colud {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		fill: #fff;
+		stroke-width:0;
+	}
+}
+.cloud{
+	fill:#fff;
+	stroke:#fff; 
+	stroke-width:0;
+	opacity:0.8;
+	animation-name: colud;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+@keyframes filed {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		fill: #79BB26;
+		stroke-width:0;
+	}
+}
+.filed-light{
+	fill:#79BB26;
+	stroke:#79BB26; 
+	stroke-width:0;
+	animation-name: filed;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+}
+@keyframes filed-d {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		fill: #79D126;
+		stroke-width:0;
+	}
+}
+.filed-dark{
+	fill:#79D126;
+	stroke:#79D126; 
+	stroke-width:0;
+	animation-name: filed-d;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+}
+@keyframes ray-anim {
+	0% {
+		fill: transparent;
+	}
+	50% {
+		fill: #E50000;
+		opacity:1;
+	}
+	100% {
+		
+		fill: transparent;
+	}
+}
+.sun-ray{
+	fill:#E50000;
+	stroke:#E50000; 
+	stroke-width:0;
+	opacity:0;
+	animation-name: ray-anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes sun-anim {
+	0% {
+		fill: transparent;
+		opacity:0.7;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		opacity:1;
+		stroke-width:1;
+	}
+	100% {
+		opacity:0.7;
+		stroke-width:0;
+	}
+}
+.sun{
+	fill:#E50000;
+	stroke:#E50000; 
+	stroke-width:0;
+	animation-name: sun-anim;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+@keyframes mountain-anim {
+	0% {
+		fill: transparent;
+		opacity:0.7;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		opacity:1;
+		stroke-width:1;
+	}
+	100% {
+		opacity:0.7;
+		stroke-width:0;
+	}
+}
+.mountain{
+	stroke-width:0;
+	animation-name: mountain-anim;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+.mountaintop{
+	stroke-width:0;
+	animation-name: mountain-anim;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes mountain-shadow-anim {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		stroke-width:0;
+	}
+}
+.mountaintop-shadow{
+	stroke-width:0;
+	opacity:0.1;
+	animation-name: mountain-shadow-anim;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+.m1{
+	fill:#983B10;
+	stroke:#983B10; 
+}
+.mt1{
+	fill:#D7F0EF;
+	stroke:#D7F0EF; 
+}
+.ms1{
+	fill:#101111;
+	stroke:#101111;
+}
+.m2{
+	fill:#AB512F;
+	stroke:#983B10; 
+}
+
+@keyframes wind-mill-anim{
+	0% {
+		fill: transparent;
+		opacity:0.3;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		opacity:0.5;
+		stroke-width:1;
+	}
+	100% {
+		opacity:1;
+		stroke-width:0;
+	}
+}
+.wind-mill{
+	stroke-width:0;
+	animation-name: wind-mill-anim;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+.wmt{
+	fill:#CE0000;
+	stroke:#CE0000; 
+}
+.wmh{
+	fill:#F8F886;
+	stroke:#F8F886; 
+}
+@keyframes wind-mill-anim1{
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		stroke-width:0;
+	}
+}
+.wmd{
+	fill:#4A5720;
+	stroke:#4A5720; 
+	opacity:0.1;
+	stroke-width:0;
+	animation-name: wind-mill-anim1;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+.wmc{
+	fill:#740000;
+	stroke:#740000; 
+}
+.wmdb{
+	fill:#4A3636;
+	stroke:#4A3636;
+}
+
+.blade{
+	fill:#E88120;
+	stroke:#E88120;
+	stroke-width:0;
+	animation-name: wind-mill-anim1;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+.blade-line{
+	fill:#770000;
+	stroke:#770000;
+	stroke-width:0;
+	animation-name: wind-mill-anim1;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+.blade-circle{
+	fill:#FF7129;
+	stroke:#FF7129;
+	stroke-width:0;
+	animation-name: wind-mill-anim1;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+
+@keyframes blade-animation1{
+	0% {
+		opacity:0;
+	}
+	33% {
+		opacity:1;
+	}
+	66% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+@keyframes blade-animation2{
+	0% {
+		opacity:0;
+	}
+	33% {
+		opacity:0;
+	}
+	66% {
+		opacity:1;
+	}
+	100% {
+		opacity:0;
+	}
+}
+@keyframes blade-animation3{
+	0% {
+		opacity:0;
+	}
+	33% {
+		opacity:0;
+	}
+	66% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+.blade-anim1,
+.blade-anim2,
+.blade-anim3{
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+.blade-anim1{
+	animation-name: blade-animation1;
+	opacity:0;
+}
+.blade-anim2{
+	animation-name: blade-animation2;
+	opacity:0;
+}
+.blade-anim3{
+	animation-name: blade-animation3;
+	opacity:1;	
+}
+
+@keyframes rock-settings {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		opacity:1;
+		stroke-width:0;
+	}
+}
+.rock{
+	stroke-width:0;
+	opacity:1;
+	animation-name: rock-settings;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+.rk1{
+	fill:#AE8649;
+stroke:#AE8649;}
+.rk2{
+	fill:#B66B56;
+stroke:#B66B56;}
+.rk3{
+	fill:#C59E5D;
+stroke:#C59E5D;}
+
+@keyframes tree1-settings {
+	0% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	50% {
+		fill: transparent;
+		stroke-width:1;
+	}
+	100% {
+		opacity:1;
+		stroke-width:0;
+	}
+}
+.tree1{
+	stroke-width:0;
+	opacity:1;
+	animation-name: tree1-settings;
+	animation-duration: 15s;
+	animation-iteration-count: 1;
+}
+.tr1{
+	fill:#00A220;
+stroke:#00A220;}
+.tr2{
+	fill:#006D00;
+stroke:#006D00;}
+.tr3{
+	fill:#007C00;
+stroke:#007C00;}
+
+
+.tr4{
+	fill:#603813;
+stroke:#603813;
+}
+.tr5{
+	fill:#318800;
+stroke:#318800;
+}
+.tr6{
+	fill:#00DB13;
+stroke:#00DB13;
+}
+
+.str0{
+	stroke-width:0;
+	opacity:1;
+	animation-name: tree1-settings;
+	animation-duration: 15s;
+	animation-iteration-count: 1;
+}
+
+
