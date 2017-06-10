@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <title>villageSVG</title>
 <meta name="author" content="Subrata Dhal">
-<meta name="desription" content="SVG path animation demo.">
+<meta name="desription" content="SVG path animation demo of village.">
 <meta name="keyword" content="svg,svg path,svg animation,svg animation,svg path animation">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="http://www.subratadhal.com/svg/villagesvg/" />
